@@ -1,0 +1,13 @@
+services:
+  php:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile
+    image: myapp/php
+    container_name: php
+    volumes:
+       - ./:/var/www/html
+
+#Docker Networks
+networks:
+  default:

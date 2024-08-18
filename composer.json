@@ -1,0 +1,15 @@
+{
+    "name": "pavel-miasnov/first-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PavelMiasnov\\FirstComposerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PavelMiasnov"
+        }
+    ],
+    "require": {}
+}
